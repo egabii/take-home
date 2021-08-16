@@ -1,0 +1,29 @@
+{
+  "name": "hero-digital-take-home",
+  "version": "1.0.0",
+  "description": "responsive web page to display form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve ./index.html --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egabii/take-home.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Muller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egabii/take-home/issues"
+  },
+  "homepage": "https://github.com/egabii/take-home#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
